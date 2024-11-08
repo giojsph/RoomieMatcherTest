@@ -1,0 +1,93 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  logoContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 20,
+  },
+  logoText: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: 'white',
+    marginLeft: 10,
+  },
+  subTitle: {
+    fontSize: 14,
+    color: '#444444',
+    marginBottom: 20,
+  },
+  input: {
+    width: '80%',
+    height: 50,
+    backgroundColor: 'white',
+    borderRadius: 10,
+    paddingLeft: 10,
+    marginBottom: 15,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 5,
+    elevation: 2,
+  },
+  loginButton: {
+    width: '80%',
+    height: 50,
+    backgroundColor: 'black',
+    borderRadius: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 10,
+  },
+  loginButtonText: {
+    color: 'white',
+    fontWeight: 'bold',
+  },
+  linksContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    width: '80%',
+    marginTop: 10,
+  },
+  linkText: {
+    color: '#4A90E2',
+    fontSize: 12,
+  },
+  orText: {
+    fontSize: 14,
+    color: '#AAAAAA',
+    marginVertical: 15,
+  },
+  googleButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    width: '80%',
+    height: 50,
+    backgroundColor: 'white',
+    borderRadius: 10,
+    justifyContent: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 5,
+    elevation: 2,
+    marginBottom: 20,
+  },
+  googleButtonText: {
+    color: 'black',
+    fontWeight: 'bold',
+    marginLeft: 10,
+  },
+  agreementText: {
+    fontSize: 10,
+    color: '#AAAAAA',
+    textAlign: 'center',
+    width: '80%',
+    marginTop: 20,
+  },
+});
